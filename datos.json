@@ -1,1 +1,10 @@
 
+{
+    "nombre": "Estudiante",
+    "habilidades": [
+        "Python",
+        "HTML"
+    ],
+    "activo": true
+}
+
