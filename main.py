@@ -1,6 +1,8 @@
 
+# Para almacenar la lista
 roster = []
 
+# Cargar la lista desde el archivo
 try:
     archivoRoster = open('roster.txt', 'r')
     for line in archivoRoster:
@@ -32,6 +34,7 @@ while True:
     else:
         break
 
+# Guarda la lista en el archivo
 try:
     archivoRoster = open('roster.txt', 'w')
     for n in roster:
